@@ -7,3 +7,9 @@ h1 {
   color: #cf0246;
   text-align: center;
 }
+
+.introBox {
+  width: 300px;
+  margin: auto;
+  font-family: "Tahoma", cursive, sans-serif;
+}
