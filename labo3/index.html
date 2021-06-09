@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link rel="stylesheet" href="calcul.css">
+    </head>
+    <body>
+        <h1>Calculatrice</h1>
+        
+
+        <form name="calculatrice">
+            <input id="number "type="number" name="display" value="" readonly><br><br>
+            <table style="width: 10%;" cellpadding="0">
+                <tbody>
+                <tr>
+                <td>
+                    <input type="button" class="btn" value="G" onclick="1">
+                </td>
+                <td>
+                    <input type="button" class="btn" value="B" onclick="1">
+                </td>
+                <td>
+                    <input type="button" class="btn" value="V" onclick="1">
+                </td>
+                <td>
+                    <input type="button" class="btn btn2" value="%" onclick="1">
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <input type="button" class="btn" name="1" value="1" onclick="calculatrice.display.value+='1'">
+                </td>
+                <td>
+                    <input type="button" class="btn" name="2" value="2" onclick="calculatrice.display.value+='2'">
+                </td>
+                <td>
+                    <input type="button" class="btn" name="3" value="3" onclick="calculatrice.display.value+='3'">
+                </td>
+                <td>
+                    <input type="button" class="btn btn2" name="*" value="*" onclick="calculatrice.display.value+='*'">
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <input type="button" class="btn" name="4" value="4" onclick="calculatrice.display.value+='4'">
+                </td>
+                <td>
+                    <input type="button" class="btn" name="5" value="5" onclick="calculatrice.display.value+='5'">
+                </td>
+                <td>
+                    <input type="button" class="btn" name="6" value="6" onclick="calculatrice.display.value+='6'">
+                </td>
+                <td>
+                    <input type="button" class="btn btn2" name="+" value="+" onclick="calculatrice.display.value+='+'">
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <input type="button" class="btn" name="7" value="7" onclick="calculatrice.display.value+='7'">
+                </td>
+                <td>
+                    <input type="button" class="btn" name="8" value="8" onclick="calculatrice.display.value+='8'">
+                </td>
+                <td>
+                    <input type="button" class="btn" name="9" value="9" onclick="calculatrice.display.value+='9'">
+                </td>
+                <td>
+                    <input type="button" class="btn btn2" value="-" name="-" onclick="calculatrice.display.value+='-'">
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <input type="button" class="btn" value="C" onclick="1">
+                </td>
+                <td>
+                    <input type="button" class="btn" name="0" value="0" onclick="calculatrice.display.value+='0'">
+                </td>
+                <td>
+                    <input type="button" class="btn" name="." value="." onclick="calculatrice.display.value+='.'">
+                </td>
+                <td>
+                    <input type="button" class="btn btn2" value="=" onclick="">
+                </td>
+                </tr>
+                </tbody>
+                </table>
+        </form>
+        
+    </body>
+</html>

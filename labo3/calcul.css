@@ -1,0 +1,23 @@
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: pink;
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn2 {
+    padding: 15px 25px;
+}
+
+.btn:hover {
+    background: rgb(192, 190, 190);
+}
+
+
+
