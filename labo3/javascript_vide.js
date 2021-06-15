@@ -8,7 +8,8 @@ function changerCouleur(couleur) {
 }
 
 function ajouterChiffre(chiffre) {
-	nombre1 = chiffre + nombre1;
+	var nombre = document.getElementById("nombre");
+	nombre.value += chiffre;
 }
 
 function ajouterOperation(operation) {

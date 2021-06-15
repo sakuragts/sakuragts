@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <link rel="stylesheet" href="calcul.css">
+        <script src="javascript_vide.js"></script>
     </head>
     <body>
         <h1>Calculatrice</h1>
@@ -78,7 +79,7 @@
                     <input type="button" class="btn" name="." value="." onclick="calculatrice.display.value+='.'">
                 </td>
                 <td>
-                    <input type="button" class="btn btn2" value="=" onclick="">
+                    <input type="button" class="btn btn2" value="=" onclick="eval(calculatrice.display.value)">
                 </td>
                 </tr>
                 </tbody>
